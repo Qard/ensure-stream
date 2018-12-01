@@ -1,0 +1,31 @@
+{
+  "name": "ensure-stream",
+  "version": "1.0.0",
+  "description": "Attempt to transform inputs to valid streams",
+  "author": "Stephen Belanger <admin@stephenbelanger.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Qard/ensure-stream#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qard/ensure-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Qard/ensure-stream/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "keywords": [
+    "ensure",
+    "stream",
+    "transform"
+  ],
+  "devDependencies": {
+    "concat-stream": "^1.6.2",
+    "tap": "^12.1.0"
+  },
+  "dependencies": {
+    "is-stream": "^1.1.0"
+  }
+}
