@@ -1,6 +1,6 @@
 {
   "name": "ensure-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Attempt to transform inputs to valid streams",
   "author": "Stephen Belanger <admin@stephenbelanger.com>",
   "license": "MIT",
