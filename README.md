@@ -1,5 +1,7 @@
 # ensure-stream
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Qard/ensure-stream.svg)](https://greenkeeper.io/)
+
 Ensures a path, named pipe or existing stream is a readable stream or writable stream. This is useful to make an API support stream options that can be an already constructed stream or a named pipe or file path for which to construct a new stream.
 
 ## Install
