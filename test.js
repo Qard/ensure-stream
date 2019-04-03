@@ -50,11 +50,11 @@ tap.test('writable', t => {
   })
 
   t.test('support file paths', t => {
-    const stream = writable(__filename + '.backup')
-    t.on('end', () => unlinkSync(__filename + '.backup'))
+    const stream = writable(`${__filename}.backup`)
+    t.on('end', () => unlinkSync(`${__filename}.backup`))
 
     createReadStream(__filename).pipe(stream).on('close', () => {
-      t.equal(readSync(__filename + '.backup'), readSync(__filename), 'maps strings other than named pipes to files')
+      t.equal(readSync(`${__filename}.backup`), readSync(__filename), 'maps strings other than named pipes to files')
       t.end()
     })
   })
