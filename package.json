@@ -30,6 +30,6 @@
     "tap": "^12.1.0"
   },
   "dependencies": {
-    "is-stream": "^1.1.0"
+    "is-stream": "^2.0.0"
   }
 }
